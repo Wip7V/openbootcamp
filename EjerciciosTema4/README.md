@@ -19,17 +19,23 @@ if( numeroIf == 0 ) {
 entero numeroWhile = 0
 
 While( numeroWhile < 3 ){
+
 	imprimir numeroWhile
 	numeroWhile++
+	
 }
 
 do {
+
 	imprimir numeroWhile
+	
 }While( numeroWhile < 3 )
 
 
 for( numeroFor=0 ; numeroFor <= 3; numeroFor++){
+
 	imprimir numeroFor
+	
 }
 
 texto estacion = "Verano"
