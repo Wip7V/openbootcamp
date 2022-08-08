@@ -55,4 +55,5 @@ caso "Invierno":
 default:
 	imprimir "Ninguna de las anteriores"
 	break
+	
 }
