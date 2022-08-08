@@ -15,6 +15,7 @@ imprimir SumarTres(10,5,8)
 
 
 Classe coche{
+
 	privada entero puertas
 	
 	constructor(){
