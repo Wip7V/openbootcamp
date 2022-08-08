@@ -36,3 +36,6 @@ miCoche = nuevo coche
 miCoche.IncrementarPuertas()
 
 imprimir miCoche.ObtenerPuertas()
+
+
+
