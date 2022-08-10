@@ -43,11 +43,13 @@ publica vacia main(){
 Persona persona = New Persona()
 
 
+
 persona.setEdad(30)
 
 persona.setNombre("Juan")
 
 persona.setTelefono("636099009")
+
 
 
 imprimir persona.getEdad
