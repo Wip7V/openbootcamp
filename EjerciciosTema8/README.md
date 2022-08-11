@@ -18,15 +18,15 @@ Classe Persona{
 		retorna this.telefono
 	}
 	
-	publica setEdad(numero edad){
+	publica vacia setEdad(numero edad){
 		this.edad = edad
 	}
 	
-	publica setNombre(texto nombre){
+	publica vacia setNombre(texto nombre){
 		this.nombre = nombre
 	}
 	
-	publica setTelefono(texto telefono){
+	publica vacia setTelefono(texto telefono){
 		this.telefono = telefono
 	}
 	

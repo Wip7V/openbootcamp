@@ -18,15 +18,15 @@ Classe Persona{
 		retorna this.telefono
 	}
 	
-	publica setEdad(numero edad){
+	publica vacia setEdad(numero edad){
 		this.edad = edad
 	}
 	
-	publica setNombre(texto nombre){
+	publica vacia setNombre(texto nombre){
 		this.nombre = nombre
 	}
 	
-	publica setTelefono(texto telefono){
+	publica vacia setTelefono(texto telefono){
 		this.telefono = telefono
 	}
 	
@@ -40,7 +40,7 @@ Clase Cliente extiende Persona{
 		retorna this.credito
 	}
 	
-	publica setCredito(decimal credito){
+	publica vacia setCredito(decimal credito){
 		this.credito = credito
 	}
 	
@@ -53,7 +53,7 @@ Clase Trabajador extiende Persona{
 		retorna this.salario
 	}
 	
-	publica setSalario(decimal salario){
+	publica vacia setSalario(decimal salario){
 		this.salario = salario
 	}
 }

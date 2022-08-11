@@ -1,17 +1,14 @@
+```sh
 /*
-
 Ejecicios del tema 3 del apartado de Introducción.
 Como no se piden en ningun leguaje especifico lo escribo en pseudocódigo.
-
 */
 
-publica entero SumarTres( valor1, valor2, valor3){
+publica entero SumarTres(entero valor1,entero valor2,entero valor3){
 	retorna valor1+valor2+valor3
 }
 
-
 imprimir SumarTres(10,5,8)
-
 
 
 Classe coche{
@@ -26,7 +23,7 @@ Classe coche{
 		retona puertas
 	}
 	
-	publico IncrementaPuertas(){
+	publico vacio IncrementaPuertas(){
 		puertas ++
 	}
 
@@ -38,5 +35,5 @@ miCoche.IncrementarPuertas()
 
 imprimir miCoche.ObtenerPuertas()
 
-
+```
 
