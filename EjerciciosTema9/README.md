@@ -1,10 +1,15 @@
-```sh
 /* En pseudocódigo */
 
 Classe Persona{
 	privada numero edad
 	privada texto nombre
 	privada texto telefono
+	
+	constructor(numero edad, texto nombre, texto telefono){
+		this.edad = edad
+		this.texto = texto
+		this.telefono = telefono
+	}
 	
 	publica numero getEdad(){
 		retorna this.edad
@@ -55,4 +60,3 @@ imprimir persona.getTelefono
 
 
 }
-```
