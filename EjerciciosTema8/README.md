@@ -1,5 +1,5 @@
 ```sh
-/* En pseudocódigo */
+## En pseudocódigo 
 
 Classe Persona{
 	privada numero edad
@@ -34,25 +34,16 @@ Classe Persona{
 
 
 publica vacia main(){
+	Persona persona = New Persona()
 
-Persona persona = New Persona()
-
-
-
-persona.setEdad(30)
-
-persona.setNombre("Juan")
-
-persona.setTelefono("636099009")
+	persona.setEdad(30)
+	persona.setNombre("Juan")
+	persona.setTelefono("636099009")
 
 
-
-imprimir persona.getEdad
-
-imprimir persona.getNombre
-
-imprimir persona.getTelefono
-
+	imprimir persona.getEdad()
+	imprimir persona.getNombre()
+	imprimir persona.getTelefono()
 
 }
 ```

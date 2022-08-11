@@ -1,15 +1,10 @@
-/* En pseudocódigo */
+```sh
+## En pseudocódigo 
 
 Classe Persona{
 	privada numero edad
 	privada texto nombre
 	privada texto telefono
-	
-	constructor(numero edad, texto nombre, texto telefono){
-		this.edad = edad
-		this.texto = texto
-		this.telefono = telefono
-	}
 	
 	publica numero getEdad(){
 		retorna this.edad
@@ -37,26 +32,57 @@ Classe Persona{
 	
 }
 
+Clase Cliente extiende Persona{
+
+	privada decimal credito
+	
+	publica decimal getCredito(){
+		retorna this.credito
+	}
+	
+	publica setCredito(decimal credito){
+		this.credito = credito
+	}
+	
+}
+
+Clase Trabajador extiende Persona{
+	privada decimal salario
+	
+	publica decimal getSalario(){
+		retorna this.salario
+	}
+	
+	publica setSalario(decimal salario){
+		this.salario = salario
+	}
+}
 
 publica vacia main(){
 
-Persona persona = New Persona()
+	Cliente cliente = New Cliente()
 
-
-
-persona.setEdad(30)
-
-persona.setNombre("Juan")
-
-persona.setTelefono("636099009")
-
-
-
-imprimir persona.getEdad
-
-imprimir persona.getNombre
-
-imprimir persona.getTelefono
-
+	cliente.setEdad(30)
+	cliente.setNombre("Juan")
+	cliente.setTelefono("636099009")
+	cliente.setCredito(345.05)
+	
+	imprimir cliente.getEdad()
+	imprimir cliente.getNombre()
+	imprimir cliente.getTelefono()
+	imprimir cliente.getCredito()
+	
+	Trabajador trabajador = New Trabajador()
+	
+	trabajador.setEdad(25)
+	trabajador.setNombre("Alba")
+	trabajador.setTelefono("555555555")
+	trabajador.setSalario(850)
+	
+	imprimir trabajador.getEdad()
+	imprimir trabajador.getNombre()
+	imprimir trabajador.getTelefono()
+	imprimir trabajador.getSalario()
 
 }
+```
